@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage[spanish,mexico]{babel}
+\usepackage{authblk}
+
+%encabezado
+\pagestyle{fancy}
+\setlength{\headheight}{2.5cm}  % Ajusta la altura según sea necesario
+\fancyhf{}
+\fancyhead[L]{Comal}
+\fancyhead[R]{Autor: David Mata Guerra \\
+	Fecha: \today}
+\fancyfoot[C]{\thepage}
+
+\begin{document}
+	\section{Comal}
+	\subsection{Objetivos}
+	El objetivo de éste proyecto es innovar en el gestionamiento actual de la cafetería/restaurante "Comal ++" de la Facultad de Informática. Se busca desarrollar un software el cuál pueda ser utilizado como una herramienta múltiple en tareas que conlleva el Comal++, de manera que llegue a agilizar las tareas a llevar acabo.
+	\subsection{Requerimientos}
+	\subsubsection{Funcionales}
+	\begin{itemize}
+		\item Gestión de Menú
+		\begin{itemize}
+			\item El software debe permitir al usuario administrador crear, visualizar, editar y eliminar platillos del menú.
+			\item Los usuarios deben poder visualizar el menú mediante una interfaz visual con información clara y detallada, así como la disponibilidad de un platillo.
+		\end{itemize}
+		\item Gestión de inventario
+		\begin{itemize}
+			\item El sistema debe de tener registrado el stock de la materia prima.
+			\item El sistema debe de tener registrado información sobre el personal.
+			\item El sistema debe tener una modalidad CRUD para el usuario administrador.
+		\end{itemize}
+		
+		\item Gestión de pedidos
+		\begin{itemize}
+			\item El sistema debe tomar pedidos en tiempo y forma y actualizar el inventario en tiempo real.
+			\item Los usuarios deben poder visualizar en que orden va su pedido comparado a los demás.
+		\end{itemize}
+		
+		\item Gestión de usuarios
+		\begin{itemize}
+			\item El sistema debe poder identificar el modo usuario (administrador, mesero, chef, cliente).
+		\end{itemize}
+		
+		\item Gestión de cortes
+		\begin{itemize}
+			\item El sistema debe entregar reportes monetarios diarios, semanales y mensuales.
+		\end{itemize}
+		
+	\end{itemize}
+	
+	\subsection{No Funcionales}
+	
+	\begin{itemize}
+		\item Disponibilidad
+		\begin{itemize}
+			\item El sistema debe estar disponible para cualquier persona perteneciente a la Facultad de Informática o visitantes.
+		\end{itemize}
+		\item Usabilidad
+		\begin{itemize}
+			\item El sistema debe tener una interfaz agradable e intuitiva, haciendo uso de las Heurísticas de Nielsen.
+		\end{itemize}
+		\item Mantenibilidad
+		\begin{itemize}
+			\item El sistema debe hacerse de manera que sea fácil de actualizar.
+		\end{itemize}
+	\end{itemize}
+	
+	
+\end{document}
